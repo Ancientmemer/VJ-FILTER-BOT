@@ -13,23 +13,23 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '2157492'))
 API_HASH = environ.get('API_HASH', '8e0c7ee5dd95b625e0f9a8e39d107e0c')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5167240865:AAHFnVN-kbOrCUi1NGVgYz33woKjuKcKPqI")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7585256723:AAE4FT5XRfliyZaWJpmeUDERt0S-RW_Zyi8")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/850c74454406440e3c7ae-6827098ec1e862e0e0.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/2cc2665d8548f3da82ee7-2305ad7f0315bd81e8.jpg')).split()
 
 
 # Admins & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6936341505 656243462').split()] # For Multiple Id Use One Space Between Each.
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '6936341505 656243462').split()]  # For Multiple Id Use One Space Between Each.
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6936341505 1942912322').split()] # For Multiple Id Use One Space Between Each.
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '6936341505 1942912322').split()]  # For Multiple Id Use One Space Between Each.
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001720970121'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002512151282'))
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001771131381').split()]  # For Multiple Id Use One Space Between Each.
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002556465398').split()]  # For Multiple Id Use One Space Between Each.
 
 # auth_channel means force subscribe channel.
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
@@ -88,10 +88,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'webseries_mania007') #
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_maniac007')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/cinema_circle_6')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/jb_links')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'movie_maniac007') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/iam_eldro')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'cinema_circle_6') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/ajlaaneyy')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
