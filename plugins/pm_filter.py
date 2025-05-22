@@ -1756,7 +1756,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
             InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
         ],[
-            InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/vj_bots")
+            InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/cinema_circle_6")
         ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1843,8 +1843,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
+                InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url=f'https://t.me/cinema_circle_6'),
+                InlineKeyboardButton('𝗢𝘄𝗻𝗲𝗿', url=f'https://t.me/ajlaaneyy')
+            ],[
                 InlineKeyboardButton('𝐒𝐭𝐚𝐭𝐬', callback_data='stats'),
-                InlineKeyboardButton('💫 𝐂𝐥𝐨𝐬𝐞', callback_data='close_data')
+                InlineKeyboardButton('💫 𝗔𝗯𝗼𝘂𝘁', callback_data='about')
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
