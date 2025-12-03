@@ -65,8 +65,8 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url=f'https://t.me/cinema_circle_6'),
-                InlineKeyboardButton('𝗢𝘄𝗻𝗲𝗿', url=f'https://t.me/ajlaaneyy')
+                InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url=f'https://t.me/+oLNoqEZMGOs4OTY9'),
+                InlineKeyboardButton('𝗢𝘄𝗻𝗲𝗿', url=f'https://t.me/Sreehari_Pradeep')
             ],[
                 InlineKeyboardButton('𝐒𝐭𝐚𝐭𝐬', callback_data='stats'),
                 InlineKeyboardButton('💫 𝗔𝗯𝗼𝘂𝘁', callback_data='about')
@@ -202,8 +202,8 @@ async def start(client, message):
                 buttons = [[
                     InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url=f'https://t.me/cinema_circle_6'),
-                    InlineKeyboardButton('𝗢𝘄𝗻𝗲𝗿', url=f'https://t.me/ajlaaneyy')
+                    InlineKeyboardButton('𝗠𝗼𝘃𝗶𝗲 𝗚𝗿𝗼𝘂𝗽', url=f'https://t.me/+oLNoqEZMGOs4OTY9'),
+                    InlineKeyboardButton('𝗢𝘄𝗻𝗲𝗿', url=f'https://t.me/Sreehari_Pradeep')
                 ],[
                     InlineKeyboardButton('𝐒𝐭𝐚𝐭𝐬', callback_data='stats'),
                     InlineKeyboardButton('💫 𝗔𝗯𝗼𝘂𝘁', callback_data='about')
@@ -1398,3 +1398,4 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
