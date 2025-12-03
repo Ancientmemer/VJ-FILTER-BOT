@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "8462571682:AAHEyn5S5wZevvHi7sxuY6sGUSUtsKH
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/50c800a4a1f766247603b-320293e006d7bbb333.jpg https://graph.org/file/eda2b0d44e3b0c52fb37f-b30338264b1735b63a.jpg https://graph.org/file/94121b562c6bbc2fc72e4-5930a3ec6b538af53c.jpg https://graph.org/file/7d0ab53d8ae979626e63f-31cc0ad6c6cd336827.jpg https://graph.org/file/6061b47ce6a720a3b553d-c1e63b51fd7af3eb89.jpg https://graph.org/file/006d22fb996e602a9e7c1-b7caa341ea0ec06dd0.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/251e8edb82be6141ee9cd-8e50125410860501b1.jpg https://graph.org/file/eda2b0d44e3b0c52fb37f-b30338264b1735b63a.jpg https://graph.org/file/94121b562c6bbc2fc72e4-5930a3ec6b538af53c.jpg https://graph.org/file/7d0ab53d8ae979626e63f-31cc0ad6c6cd336827.jpg https://graph.org/file/6061b47ce6a720a3b553d-c1e63b51fd7af3eb89.jpg https://graph.org/file/006d22fb996e602a9e7c1-b7caa341ea0ec06dd0.jpg https://graph.org/file/9c7937055d3f0eeb7808f-2fa5a88f7ebb8d31dd.jpg https://graph.org/file/a2afd0e2fffbf1e2c0608-4c0ea6a15bb0037e3b.jpg https://graph.org/file/d780309e8a7e1ad11137e-f289cfa3d2849c9bd8.jpg https://graph.org/file/c87b5864bb94988c84441-89738458a83ddbfbfe.jpg https://graph.org/file/9d3b563a3965fd99e9abd-95a9b47446b46066fe.jpg')).split()
 
 
 # Admins & Users
@@ -196,6 +196,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
