@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "8462571682:AAHEyn5S5wZevvHi7sxuY6sGUSUtsKH
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/50c800a4a1f766247603b-320293e006d7bbb333.jpg https://graph.org/file/eda2b0d44e3b0c52fb37f-b30338264b1735b63a.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/50c800a4a1f766247603b-320293e006d7bbb333.jpg https://graph.org/file/eda2b0d44e3b0c52fb37f-b30338264b1735b63a.jpg https://graph.org/file/94121b562c6bbc2fc72e4-5930a3ec6b538af53c.jpg https://graph.org/file/7d0ab53d8ae979626e63f-31cc0ad6c6cd336827.jpg https://graph.org/file/6061b47ce6a720a3b553d-c1e63b51fd7af3eb89.jpg https://graph.org/file/006d22fb996e602a9e7c1-b7caa341ea0ec06dd0.jpg')).split()
 
 
 # Admins & Users
@@ -88,10 +88,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'webseries_mania007') #
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/cinema_circle_6')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_maniac007')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/jb_links')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'cinema_circle_6') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/iam_eldro')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'movie_maniac007') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Sreehari_Pradeep')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -196,4 +196,5 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
