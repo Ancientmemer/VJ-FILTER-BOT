@@ -90,7 +90,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'webseries_mania007') #
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+oLNoqEZMGOs4OTY9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/jb_links')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'movie_maniac007') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'trixel_movies') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Sreehari_Pradeep')
 
 # True Or False
@@ -196,6 +196,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
